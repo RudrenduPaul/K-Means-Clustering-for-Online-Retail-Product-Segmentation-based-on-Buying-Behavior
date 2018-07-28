@@ -10,10 +10,12 @@ Publication: This data set was originally used in the following publications,
 
 1. The evolution of direct, data and digital marketing, Richard Webber, Journal of Direct, Data and Digital Marketing Practice (2013) 14, 291â€“309.
 
-2. Clustering Experiments on Big Transaction Data for Market Segmentation, Ashishkumar Singh, Grace Rumantir, Annie South, Blair Bethwaite, Proceedings of the 2014 International Conference on Big Data Science and Computing. 
+2. Clustering Experiments on Big Transaction Data for Market Segmentation, Ashishkumar Singh, Grace Rumantir, Annie South, Blair Bethwaite, Proceedings of the 2014 International Conference on Big Data Science and Computing.
+
 https://www.semanticscholar.org/paper/Clustering-Experiments-on-Big-Transaction-Data-for-Singh-Rumantir/e50d8b3dd2f8afcfa18b30e2523c9795b0dcfa0f
 
 3. A decision-making framework for precision marketing, Zhen You, Yain-Whar Si, Defu Zhang, XiangXiang Zeng, Stephen C.H. Leung c, Tao Li, Expert Systems with Applications, 42 (2015) 3357â€“3367.
+
 https://www.deepdyve.com/lp/elsevier/a-decision-making-framework-for-precision-marketing-YifBSiGq9h
 
 Credits: Daqing Chen, Sai Liang Sain, and Kun Guo, Data mining for the online retail industry: A case study of RFM model-based customer segmentation using data mining, Journal of Database Marketing and Customer Strategy Management, Vol. 19, No. 3, pp. 197â€“208, 2012 (Published online before print: 27 August 2012. doi: 10.1057/dbm.2012.17).
