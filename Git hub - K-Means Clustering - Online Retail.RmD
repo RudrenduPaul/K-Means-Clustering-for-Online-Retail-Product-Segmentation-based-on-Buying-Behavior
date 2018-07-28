@@ -1,0 +1,126 @@
+---
+title: "Cluster Analysis in Online Retail for Analyzing Consumer Buying Behaviour"
+output: html_notebook
+---
+
+```{r}
+
+library(readxl)
+# Importing the dataset
+dataset = read_xlsx('Online Retail.xlsx')
+dataset=data.frame(dataset)
+dim(dataset)
+str(dataset)
+
+```
+```{r}
+# Dropping Input variables: Repeated information and not useful 
+# Dropping: Invoice Number, Description & Unit Price (To avoid Redundant Information already in Stock Code), & InvoiceDate  
+dataset = dataset[,-c(1,3,5,6)]
+dim(dataset)
+str(dataset)
+
+```
+
+```{r}
+
+# Checking for missing data
+d3=dataset
+for(i in 1:ncol(d3))
+   {
+    print(colnames(d3[i]))
+    print(sum(is.na(d3[i])))
+   }
+
+# It seems that data for cutomer ID is missing only and is a huge fraction of the raw data, so I shall drop customer ID Column from our analysis
+
+dataset = dataset[-3]
+dim(dataset)
+str(dataset)
+
+# Checking for missing data
+d3=dataset
+for(i in 1:ncol(d3))
+   {
+    print(colnames(d3[i]))
+    print(sum(is.na(d3[i])))
+   }
+# There is no missing data
+
+# Encoding the target feature as factor
+dataset$StockCode = as.factor(dataset$StockCode)
+
+# Training Set
+training_set = dataset
+
+# Feature Scaling
+training_set[2] = scale(dataset[2])
+str(training_set)
+
+```
+
+```{r}
+
+# Defining the categorical and Numeric Input Data types
+
+dataset$StockCode = as.factor(dataset$StockCode)
+dataset$Quantity =  as.numeric(dataset$Quantity)
+dataset$Country = as.character(dataset$Country)
+
+str(dataset)
+```
+```{r}
+# Training Set
+training_set = dataset
+
+# Feature Scaling
+training_set = scale(dataset[,2])
+str(training_set)
+
+```
+
+```{r}
+# Number of Clusters
+k = 10
+
+# Using the elbow method to find the optimal number of clusters
+set.seed(123)
+wcss = vector()
+for (i in 1:k) wcss[i] = sum(kmeans(training_set, i, algorithm = "Hartigan-Wong")$withinss)
+plot(1:k,
+     wcss,
+     type = 'b',
+     main = paste('The Elbow Method'),
+     xlab = 'Number of clusters',
+     ylab = 'WCSS')
+
+```
+
+```{r}
+
+# Optimal Clusters Found
+Optimal_Clusters = 3
+
+# Fitting K-Means to the dataset
+set.seed(456)
+kmeans = kmeans(x = training_set, centers = Optimal_Clusters)
+y_kmeans = kmeans$cluster
+
+plot(y_kmeans, 
+     main = "Online Retail Sales Clustering",
+     ylab = "Product Clusters based on Qty Sold & Sales Location", 
+     xlab = "Product ID Numbers")
+
+```
+
+```{r}
+# Histogram
+print("Total Number of products in each cluster")
+table(y_kmeans)
+
+hist(y_kmeans, main  = "Number of products in each cluster", xlab = "Product Cluster ID")
+
+```
+
+
+
