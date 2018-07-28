@@ -12,11 +12,11 @@ Publication: This data set was originally used in the following publications,
 
 2. Clustering Experiments on Big Transaction Data for Market Segmentation, Ashishkumar Singh, Grace Rumantir, Annie South, Blair Bethwaite, Proceedings of the 2014 International Conference on Big Data Science and Computing.
 
-https://www.semanticscholar.org/paper/Clustering-Experiments-on-Big-Transaction-Data-for-Singh-Rumantir/e50d8b3dd2f8afcfa18b30e2523c9795b0dcfa0f
+   https://www.semanticscholar.org/paper/Clustering-Experiments-on-Big-Transaction-Data-for-Singh-Rumantir/e50d8b3dd2f8afcfa18b30e2523c9795b0dcfa0f
 
 3. A decision-making framework for precision marketing, Zhen You, Yain-Whar Si, Defu Zhang, XiangXiang Zeng, Stephen C.H. Leung c, Tao Li, Expert Systems with Applications, 42 (2015) 3357â€“3367.
 
-https://www.deepdyve.com/lp/elsevier/a-decision-making-framework-for-precision-marketing-YifBSiGq9h
+  https://www.deepdyve.com/lp/elsevier/a-decision-making-framework-for-precision-marketing-YifBSiGq9h
 
 
 Credits: 
