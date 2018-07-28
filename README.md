@@ -16,7 +16,7 @@ Publication: This data set was originally used in the following publications,
 
 3. A decision-making framework for precision marketing, Zhen You, Yain-Whar Si, Defu Zhang, XiangXiang Zeng, Stephen C.H. Leung c, Tao Li, Expert Systems with Applications, 42 (2015) 3357â€“3367.
 
-  https://www.deepdyve.com/lp/elsevier/a-decision-making-framework-for-precision-marketing-YifBSiGq9h
+    https://www.deepdyve.com/lp/elsevier/a-decision-making-framework-for-precision-marketing-YifBSiGq9h
 
 
 Credits: 
