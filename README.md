@@ -2,9 +2,13 @@
 
 K-means Clustering Technique Applied for product segmentation for effective Inventory Management
 
-Conclusions: The model gives us some great insights by segmenting multiple products into different categories for a retail company with similar/cyclical buying pattern over a period of 1 year. This can help us the retail shop manage their inventory better thereby lowering costs and raising revenue by placing the orders in synchornized with the buying cycles.
+Conclusions: 
+ 
+The model gives us some great insights by segmenting multiple products into different categories for a retail company with similar/cyclical buying pattern over a period of 1 year. This can help us the retail shop manage their inventory better thereby lowering costs and raising revenue by placing the orders in synchornized with the buying cycles.
 
-Dataset Description: This dataset consists of is a weekly sales data of 54,000+ rows of data for for a global retail company with 8 attributes (qualitative and quantitative).
+Dataset Description: 
+ 
+This dataset consists of is a weekly sales data of 54,000+ rows of data for for a global retail company with 8 attributes (qualitative and quantitative).
 
 Publication: This data set was originally used in the following publications,
 
