@@ -13,4 +13,6 @@ Springer. https://www.springer.com/us/book/9783319420066
 
 2. https://pdfs.semanticscholar.org/a1c1/5f4594629d3a5a72e038084e6f6c370d5dd8.pdf
 
-Data Source: https://archive.ics.uci.edu/ml/datasets/Sales_Transactions_Dataset_Weekly
+Data Source: 
+
+Data Source: https://archive.ics.uci.edu/ml/datasets/online+retail
